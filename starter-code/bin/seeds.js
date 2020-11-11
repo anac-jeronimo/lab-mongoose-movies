@@ -37,10 +37,10 @@ Celebrity.create(celebrity)
 
 const mongoose = require('mongoose');
 const Movies = require('../models/Movies.js');
-const DB_NAME = 'express-movies';
+const DB_NAME = 'express-celebrity';
 
 mongoose.connect(`mongodb://localhost/${DB_NAME}`, {
-    useCreateIndex: true,
+  useCreateIndex: true,
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
